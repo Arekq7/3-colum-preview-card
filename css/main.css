@@ -1,0 +1,201 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap");
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-size: 15px;
+  font-family: 'Lexend Deca', sans-serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  min-height: 100vh;
+}
+
+.btn {
+  display: inline-block;
+  padding: 14px 32px;
+  background-color: #f2f2f2;
+  border-radius: 5rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container__flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.container__row1 {
+  background-color: #e38826;
+  padding: 3rem;
+  max-width: 20.3125rem;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  max-height: 500px;
+}
+
+.container__img {
+  margin-bottom: 2.5rem;
+}
+
+.container__title {
+  font-size: 2.125rem;
+  text-transform: uppercase;
+  color: #f2f2f2;
+  font-family: 'Big Shoulders Display', cursive;
+  margin-bottom: 2.5rem;
+}
+
+.container__subtitle {
+  color: rgba(255, 255, 255, 0.75);
+  line-height: 1.5;
+  margin-bottom: 1.75rem;
+}
+
+.container__btn1 {
+  color: #e38826;
+  background-color: #f2f2f2;
+}
+
+.container__btn1:hover {
+  background: #e38826;
+  color: #f2f2f2;
+  border: 2px solid #f2f2f2;
+}
+
+.container__row2 {
+  background-color: #006970;
+  padding: 3rem;
+  max-width: 20.3125rem;
+  max-height: 500px;
+}
+
+.container__btn2 {
+  color: #006970;
+}
+
+.container__btn2:hover {
+  background: #006970;
+  color: #f2f2f2;
+  border: 2px solid #f2f2f2;
+}
+
+.container__row3 {
+  background-color: #004241;
+  padding: 3rem;
+  max-width: 20.3125rem;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  max-height: 500px;
+}
+
+.container__btn3 {
+  color: #004241;
+}
+
+.container__btn3:hover {
+  background: #004241;
+  color: #f2f2f2;
+  border: 2px solid #f2f2f2;
+}
+
+@media (min-width: 1000px) {
+  .container__flex {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  .container__row1 {
+    background-color: #e38826;
+    padding: 3rem;
+    max-width: 20.3125rem;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 5px;
+    height: 31.25rem;
+  }
+  .container__img {
+    margin-bottom: 2.5rem;
+  }
+  .container__title {
+    font-size: 2.125rem;
+    text-transform: uppercase;
+    color: #f2f2f2;
+    font-family: 'Big Shoulders Display', cursive;
+    margin-bottom: 2.5rem;
+  }
+  .container__subtitle {
+    color: rgba(255, 255, 255, 0.75);
+    line-height: 1.5;
+    margin-bottom: 5.3125rem;
+  }
+  .container__btn1 {
+    color: #e38826;
+  }
+  .container__btn1:hover {
+    background: #e38826;
+    color: #f2f2f2;
+    border: 2px solid #f2f2f2;
+  }
+  .container__row2 {
+    background-color: #006970;
+    padding: 3rem;
+    max-width: 20.3125rem;
+    height: 31.25rem;
+  }
+  .container__btn2 {
+    color: #006970;
+  }
+  .container__btn2:hover {
+    background: #006970;
+    color: #f2f2f2;
+    border: 2px solid #f2f2f2;
+  }
+  .container__row3 {
+    background-color: #004241;
+    padding: 3rem;
+    max-width: 20.3125rem;
+    height: 31.25rem;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 5px;
+  }
+  .container__btn3 {
+    color: #004241;
+  }
+  .container__btn3:hover {
+    background: #004241;
+    color: #f2f2f2;
+    border: 2px solid #f2f2f2;
+  }
+}
+/*# sourceMappingURL=main.css.map */
